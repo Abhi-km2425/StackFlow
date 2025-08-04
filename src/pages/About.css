@@ -1,0 +1,31 @@
+/* Modern Base Styles */
+.about-container {
+  max-width: 1200px;
+}
+
+/* Typography */
+.display-5 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+/* Cards */
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Team Images */
+.rounded-circle {
+  border: 3px solid rgba(13, 110, 253, 0.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .display-5 {
+    font-size: 2rem;
+  }
+}

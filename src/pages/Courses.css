@@ -1,0 +1,43 @@
+.carousel-img {
+  height: 400px; /* Adjust as needed */
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.6); /* darkens image for better text visibility */
+}
+
+/* Optional: make captions stand out */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.carousel-caption h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+}
+
+/* Responsive text sizing */
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 240px;
+  }
+
+  .carousel-caption {
+    padding: 12px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.3rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}
