@@ -1,6 +1,12 @@
-import React from 'react';
-import { Container, Row, Col, Button, Form } from 'react-bootstrap';
-import { FaGithub, FaTwitter, FaLinkedin, FaBook, FaChalkboardTeacher } from 'react-icons/fa';
+import React from "react";
+import { Container, Row, Col, Button, Form } from "react-bootstrap";
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedin,
+  FaBook,
+  FaChalkboardTeacher,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -13,7 +19,8 @@ const Footer = () => {
               <FaBook className="me-2" /> StackFlow
             </h5>
             <p className="small text-muted">
-              Your gateway to skill-building courses. Learn from experts, teach what you love.
+              Your gateway to skill-building courses. Learn from experts, teach
+              what you love.
             </p>
           </Col>
 
@@ -21,18 +28,39 @@ const Footer = () => {
           <Col md={3} lg={2}>
             <h6 className="fw-bold mb-3 small">Explore</h6>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="/courses" className="small text-decoration-none">Courses</a></li>
-              <li className="mb-2"><a href="/instructors" className="small text-decoration-none">Teach</a></li>
-              <li className="mb-2"><a href="/pricing" className="small text-decoration-none">Pricing</a></li>
+              <li className="mb-2">
+                <a href="/" className="small text-decoration-none">
+                  Home
+                </a>
+              </li>
+
+              <li className="mb-2">
+                <a href="courses" className="small text-decoration-none">
+                  Courses
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="about" className="small text-decoration-none">
+                  About
+                </a>
+              </li>
             </ul>
           </Col>
 
           {/* Legal (Condensed) */}
           <Col md={3} lg={2}>
-            <h6 className="fw-bold mb-3 small">Legal</h6>
+            <h6 className="fw-bold mb-3 small">Contact us</h6>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="/privacy" className="small text-decoration-none">Privacy</a></li>
-              <li className="mb-2"><a href="/terms" className="small text-decoration-none">Terms</a></li>
+              <li className="mb-2">
+                <a href="" className="small text-decoration-none">
+                 0123456789
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="" className="small text-decoration-none">
+                  palakkad,kerala
+                </a>
+              </li>
             </ul>
           </Col>
 
@@ -40,10 +68,10 @@ const Footer = () => {
           <Col lg={4}>
             <h6 className="fw-bold mb-3 small">Get Updates</h6>
             <div className="d-flex">
-              <Form.Control 
-                type="email" 
-                placeholder="Email" 
-                size="sm" 
+              <Form.Control
+                type="email"
+                placeholder="Email"
+                size="sm"
                 className="rounded-0 border-end-0"
               />
               <Button variant="primary" size="sm" className="rounded-0">
@@ -53,7 +81,7 @@ const Footer = () => {
           </Col>
         </Row>
 
-        {/* Copyright (Single Line) */}
+        {/* Copyright  */}
         <Row className="mt-3">
           <Col className="text-center small text-muted">
             © {new Date().getFullYear()} StackFlow. All rights reserved.

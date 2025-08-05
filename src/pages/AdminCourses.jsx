@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Button, Modal, Form } from 'react-bootstrap';
 import AllCourses from '../components/AllCourses';
 import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 function AdminCourses() {
   const [showModal, setShowModal] = useState(false);
@@ -67,6 +68,7 @@ function AdminCourses() {
         </Modal.Footer>
       </Modal>
     </Container>
+    <Footer/>
 
     </>
   )
