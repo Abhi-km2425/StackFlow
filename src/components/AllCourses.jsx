@@ -86,7 +86,7 @@ function AllCourses() {
             <h2 className="text-center mb-4">Explore Our Courses</h2>
             <Row>
               {courses.map((course) => (
-                <Col key={course.id} sm={12} md={6} lg={4}>
+                <Col key={course.id} sm={12} md={6} lg={4} className='d-flex justify-content-center'>
                   <CourseCard course={course} />
                 </Col>
               ))}

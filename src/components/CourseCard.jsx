@@ -3,8 +3,7 @@ import { Card } from 'react-bootstrap';
 import './CourseCard.css'
 
 export default function CourseCard({ course }) {
-  if (!course) return null; // prevent crash if course is undefined
-
+  if (!course) return null; 
   return (
 <>
       <Card style={{ width: '18rem' }} className="mb-4 shadow-sm course-card">

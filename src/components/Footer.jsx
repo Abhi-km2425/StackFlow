@@ -61,6 +61,7 @@ const Footer = () => {
                   palakkad,kerala
                 </a>
               </li>
+              <li><FaGithub/> <FaTwitter/> <FaLinkedin/></li>
             </ul>
           </Col>
 
