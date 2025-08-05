@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand + Mission */}
           <Col md={6} lg={4}>
             <h5 className="fw-bold mb-3 text-primary">
-              <FaBook className="me-2" /> EduSphere
+              <FaBook className="me-2" /> StackFlow
             </h5>
             <p className="small text-muted">
               Your gateway to skill-building courses. Learn from experts, teach what you love.
@@ -56,7 +56,7 @@ const Footer = () => {
         {/* Copyright (Single Line) */}
         <Row className="mt-3">
           <Col className="text-center small text-muted">
-            © {new Date().getFullYear()} EduSphere. All rights reserved.
+            © {new Date().getFullYear()} StackFlow. All rights reserved.
           </Col>
         </Row>
       </Container>

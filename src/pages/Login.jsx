@@ -17,7 +17,7 @@ function Login() {
 
   return (
     <Container className="py-5" style={{ maxWidth: '500px' }}>
-      <h2 className="text-center mb-4">Login to EduSphere</h2>
+      <h2 className="text-center mb-4">Login to StackFlow</h2>
 
       <Tabs
         activeKey={activeTab}

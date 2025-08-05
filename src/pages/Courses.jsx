@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import NavBar from "../components/NavBar";
 import AllCourses from "../components/AllCourses";
+import Footer from '../components/Footer'
 //carousal
 import Carousel from "react-bootstrap/Carousel";
 import './Courses.css'
 
 export default function Courses() {
   return (
+    
     <>
       <NavBar />
       {/* carousal */}
@@ -73,7 +75,9 @@ export default function Courses() {
         </div>
 
         <AllCourses />
+       
       </Container>
+       <Footer/>
     </>
   );
 }

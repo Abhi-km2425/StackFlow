@@ -38,7 +38,7 @@ function About() {
             <Col md={6} className="order-md-2">
               <h1 className="display-5 fw-bold mb-4">Redefining <span className="text-primary">Edu</span>cation</h1>
               <p className="lead text-muted">
-                EduSphere bridges the gap between learners and instructors with intuitive tools, 
+                StackFlow bridges the gap between learners and instructors with intuitive tools, 
                 empowering anyone to teach or learn from anywhere.
               </p>
             </Col>
@@ -86,7 +86,7 @@ function About() {
 
         {/*  Team  */}
         <section className="my-5">
-          <h2 className="text-center mb-5 fw-semibold">Who Builds EduSphere</h2>
+          <h2 className="text-center mb-5 fw-semibold">Who Builds StackFlow</h2>
           <Row className="g-4">
             {teamMembers.map((member, index) => (
               <Col key={index} lg={4} md={6}>
